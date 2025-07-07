@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>拼多多字体反爬虫测试</title>
+    <style>
+        @font-face {
+            font-family: 'spider-font';
+            src: url('spider-font.ttf') format('truetype');
+        }
+        .normal-text {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .spider-font {
+            font-family: 'spider-font', Arial, sans-serif;
+            font-size: 18px;
+            margin: 10px 0;
+            color: red;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>拼多多字体反爬虫测试</h1>
+        
+        <h2>正常字体显示:</h2>
+        <div class="normal-text">价格: ¥123.45</div>
+        <div class="normal-text">订单号: 1234567890</div>
+        <div class="normal-text">数量: 9876543210</div>
+        
+        <h2>反爬虫字体显示:</h2>
+        <div class="spider-font">价格: ¥123.45</div>
+        <div class="spider-font">订单号: 1234567890</div>
+        <div class="spider-font">数量: 9876543210</div>
+        
+        <h2>说明:</h2>
+        <p>如果字体反爬虫生效，红色文字中的数字显示应该与黑色文字不同。</p>
+        <p>这就是拼多多防止爬虫直接读取数字的机制。</p>
+        
+        <h2>技术信息:</h2>
+        <p>字体文件: spider-font.ttf</p>
+        <p>WebSpiderRule: eb032cf08f714b37a37f638355db6658v10CHSdqpyu8nMzXKrVeryRvNSjHB5IFQ6ani2lpUKs2FI2M36OlRCWws6O8dee2A69</p>
+        <p>字体URL: https://pfile.pddpic.com/webspider-sdk-api/eb032cf08f714b37a37f638355db6658-97a73b3bfb9249e6b1b80b0bd1d7c4cb.ttf</p>
+    </div>
+</body>
+</html>

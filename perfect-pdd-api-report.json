@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-07-07T02:49:54.799Z",
+  "tests": [
+    {
+      "name": "订单列表查询",
+      "result": {
+        "success": true,
+        "statusCode": 200,
+        "headers": {
+          "server": "nginx",
+          "date": "Mon, 07 Jul 2025 02:49:49 GMT",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding, Origin",
+          "x-yak-request-id": "1751856589696-8b4e301dd6d945aa786abc64e80ebe16",
+          "access-control-allow-origin": "https://mms.pinduoduo.com",
+          "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, X_Requested_With, Accept, X-HTTP-Method-Override, Cookie, AccessToken, PASSID, VerifyAuthToken, Anti-Content, ETag",
+          "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT, HEAD",
+          "access-control-expose-headers": "*",
+          "access-control-allow-credentials": "true",
+          "yak-timeinfo": "1751856589696|14",
+          "content-encoding": "gzip",
+          "cip": "124.129.70.191"
+        },
+        "data": {
+          "error_msg": "操作太过频繁，请稍后再试！",
+          "error_code": 40002
+        },
+        "responseTime": 101,
+        "responseSize": 49,
+        "originalSize": 93,
+        "compressed": true
+      }
+    },
+    {
+      "name": "字体反爬虫API",
+      "result": {
+        "success": true,
+        "statusCode": 200,
+        "headers": {
+          "server": "nginx",
+          "date": "Mon, 07 Jul 2025 02:49:52 GMT",
+          "content-type": "application/json;charset=UTF-8",
+          "transfer-encoding": "chunked",
+          "connection": "close",
+          "vary": "Accept-Encoding, Accept-Encoding, Origin,Accept-Encoding, Origin",
+          "access-control-allow-origin": "https://mms.pinduoduo.com",
+          "access-control-allow-credentials": "true",
+          "x-yak-request-id": "1751856592801-9236565446ec06398b977377e72aeb70",
+          "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, X_Requested_With, Accept, X-HTTP-Method-Override, Cookie, AccessToken, PASSID, VerifyAuthToken, x-cos-meta-object-set-callback, Anti-Content, Etag, chiru-org, user-type, host-id, client-type, corpaccesstoken, rctk, rctk-sign, ddjb-sign, ddjb-app-sign, Ws-Proxy-Uin",
+          "access-control-allow-methods": "GET, POST, OPTIONS, DELETE, PUT",
+          "x-b3-trace": "false",
+          "gw-ext": "glbver=2",
+          "content-security-policy-report-only": "default-src 'none';script-src 'report-sample';report-uri https://tc.pinduoduo.com/sec.gif",
+          "yak-timeinfo": "1751856592801|8",
+          "set-cookie": [
+            "api_uid=CiGcMGhrNdBTxACSu3xGAg==; expires=Thu, 31-Dec-37 23:55:55 GMT; domain=.yangkeduo.com; path=/"
+          ],
+          "cip": "124.129.70.191"
+        },
+        "data": {
+          "web_spider_rule": "ebde697de9c046ffab4ba6c68d745331v10MFY0sNhLSHpMJHFz8n0NCUmCFk/hsIqhoQB4VB0LTaKiC2fhdgMC/G42YuXNdvrY",
+          "ttf_url": "https://pfile.pddpic.com/webspider-sdk-api/ebde697de9c046ffab4ba6c68d745331-06863e40ba8c43ee9e0903a901e7c69e.ttf",
+          "font_type_vos": []
+        },
+        "responseTime": 78,
+        "responseSize": 265,
+        "originalSize": 265,
+        "compressed": false
+      }
+    }
+  ],
+  "cookies": "api_uid=CkCbyGhYxoWfNgBWhn2/Ag==; _nano_fp=XpmyX0EYl0Tyn0X8nT_afz50rgEh6_a1MhDD8sq0; x-hng=lang=zh-CN&domain=mms.pinduoduo.com; rckk=b5YkbF5lopu0OzGU4aLv7vqzaHocq1n5; _bee=b5YkbF5lopu0OzGU4aLv7vqzaHocq1n5; ru1k=85a1ea21-9b2d-4521-95f7-be3f6e087fbe; _f77=85a1ea21-9b2d-4521-95f7-be3f6e087fbe; ru2k=6b4cd938-2608-42a4-b06a-abea5b81c6cd; _a42=6b4cd938-2608-42a4-b06a-abea5b81c6cd; PASS_ID=1-RYcGhQUSpFgRWLAnCnttXhChovJMfTw5B/Nc7zDBVdC6FocABYaNQY0A8P6LqtFI1H8I+EF6zYyGLPTtEdZMzw_712515583_143917840; mms_b84d1838=3616,3523,3660,3614,3447,3613,3604,3589,3594,3599,3601,3602,3603,3605,3621,3622,3588,3254,3532,3642,3474,3475,3477,3479,3482,1202,1203,1204,1205,3417; x-visit-time=1751854294527; JSESSIONID=6DA0F59704B5E1163195BFFA2D8F42CE",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+}

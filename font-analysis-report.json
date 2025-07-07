@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-07-07T02:45:45.540Z",
+  "fontInfo": {
+    "url": "https://pfile.pddpic.com/webspider-sdk-api/eb032cf08f714b37a37f638355db6658-97a73b3bfb9249e6b1b80b0bd1d7c4cb.ttf",
+    "size": 10040,
+    "hash": "26d8b5c28a5e4e1617cd2b2f617f138c"
+  },
+  "webSpiderRule": {
+    "rule": "eb032cf08f714b37a37f638355db6658v10CHSdqpyu8nMzXKrVeryRvNSjHB5IFQ6ani2lpUKs2FI2M36OlRCWws6O8dee2A69",
+    "analysis": {
+      "prefix": "eb032cf08f714b37a37f638355db6658",
+      "version": "v10",
+      "mainPart": "v10CHSdqpyu8nMzXKrVeryRvNSjHB5IFQ6ani2lpUKs2FI2M36OlRCWws6O8dee2A69",
+      "hash": "963f5af2ef6ae83bc37221b8661e701c"
+    }
+  },
+  "fontMapping": {
+    "fontHash": "26d8b5c28a5e4e1617cd2b2f617f138c",
+    "ruleHash": "963f5af2ef6ae83bc37221b8661e701c",
+    "timestamp": 1751856345537,
+    "possibleMappings": {
+      "0": 2,
+      "1": 5,
+      "2": 7,
+      "3": 7,
+      "4": 5,
+      "5": 1,
+      "6": 0,
+      "7": 9,
+      "8": 6,
+      "9": 8
+    }
+  },
+  "summary": {
+    "fontDownloaded": true,
+    "ruleAnalyzed": true,
+    "mappingGenerated": true,
+    "testPageCreated": true
+  }
+}

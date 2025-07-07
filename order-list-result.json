@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "statusCode": 200,
+  "data": {
+    "success": true,
+    "result": {
+      "error_code": 40002,
+      "error_msg": "操作太过频繁，请稍后再试！"
+    },
+    "timestamp": 1751857774595
+  },
+  "headers": {
+    "server": "nginx",
+    "date": "Mon, 07 Jul 2025 03:09:32 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "vary": "Accept-Encoding, Accept-Encoding",
+    "x-yak-request-id": "1751857772587-9a075eb7e25c46b6caea985a61295366",
+    "yak-timeinfo": "1751857772587|17",
+    "cip": "124.129.70.191"
+  },
+  "responseTime": 109,
+  "responseSize": 49,
+  "originalSize": 75,
+  "compressed": false
+}
